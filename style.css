@@ -1,5 +1,5 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500&display=swap');
 
 /* =========================
     common style 
@@ -115,4 +115,80 @@ body {
 }
 .brand__name ul li {
     list-style-type: none;
+}
+
+/* ========================
+    product style
+======================== */
+.collection {
+    margin: 0 196px 100px 196px;
+}
+.collection__title {
+    text-align: center;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 45px;
+    justify-items: center;
+}
+.product {
+    width: 329px;
+    box-shadow: 0.5px 1.5px 4px 0;
+    transition: 0.4s;
+}
+.product:hover {
+    box-shadow: 2px 6px 16px 0;
+}
+.product__image img {
+    padding: 17px 15px 16px 15px;
+    border-radius: 5px;
+}
+.product__detail {
+    padding-left: 15px;
+}
+.product__heading {
+    color: #18191F;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+.product__price {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    margin: 15px 0;
+}
+.product__rating .fas, span{
+    color: #FB8200;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.product__rating > span {
+    color: #5E6366;
+    margin-left: 8px;
+}
+.product__more-info {
+    color: #787885;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    padding-bottom: 17px;
+}
+.see__more-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.see__more-button a, .see__more {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #E02C6DDE;
+    margin-top: 50px;
 }
