@@ -60,7 +60,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 120px 70px 120px;
+    margin: 0 120px 100px 120px;
 }
 .greeting__heading {
     color: #3A3A3A;
@@ -97,4 +97,22 @@ body {
 .greeting__image {
     background-image: url(./images/Circle\ design.svg);
     background-repeat: no-repeat;
+}
+
+/* =========================
+    brand style
+========================= */
+.brand__name {
+    margin: 0 165px 100px 165px;
+    padding: 35px 62px;
+    border-top-style: outset;
+    border-bottom-style: inset;
+}
+.brand__name ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand__name ul li {
+    list-style-type: none;
 }
