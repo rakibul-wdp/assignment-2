@@ -446,5 +446,77 @@ input, textarea {
 
 /* Table Devices */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-    
+    /* header responsive */
+    .header, .greeting {
+        margin: 70px 70px;
+    }
+    .nav__brand-name {
+        font-size: 18px;
+    }
+    .nav__menu ul li a {
+        margin-right: 10px;
+        font-weight: normal;
+    }
+    /* greeting responsive */
+    .greeting {
+        flex-direction: column-reverse;
+    }
+    .greeting__text {
+        align-items: center;
+    }
+    .animation {
+        font-size: 0.625em;
+        margin-left: 30em;
+    }
+    .greeting__heading, .greeting__para {
+        text-align: center;
+        width: 100%;
+    }
+    .order__button {
+        justify-content: center;
+        align-items: center;
+    }
+    .greeting__image img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* brand responsive */
+    .brand__name ul {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .brand__name ul li {
+        margin: 10px;
+    }
+    /* collection responsive */
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        justify-content: center;
+    }
+    /* bonus responsive */
+    .bonus__content {
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .bonus__para {
+        margin: 0 50px;
+    }
+    .bonus__app {
+        text-align: center;
+    }
+    .bonus__app > div {
+        width: 60%;
+    }
+    .bonus__logo {
+        width: 60%;
+    }
+    .bonus__logo img {
+        padding-left: 87px;
+        width: 56%;
+    }
 }
